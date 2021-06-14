@@ -104,12 +104,12 @@ def Gabor_process(img):
 
 
 # Read image
-img = cv2.imread("4.jpg").astype(np.float32)
+img = cv2.imread("6.jpg").astype(np.float32)
 
 # gabor process
 out = Gabor_process(img)
 
-cv2.imwrite("out.jpg", out)
+cv2.imwrite("outMihail.jpg", out)
 cv2.imshow("result", out)
 cv2.waitKey(0)
 #cv2.destroyAllWindows()
