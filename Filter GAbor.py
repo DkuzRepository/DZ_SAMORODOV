@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 
 def BGR2GRAY(img):
 
+
     gray = 0.2126 * img[..., 2] + 0.7152 * img[..., 1] + 0.0722 * img[..., 0]
     return gray
 
