@@ -15,6 +15,8 @@ def Gabor_filter(K_size=111, Sigma=10, Gamma=1.2, Lambda=10, Psi=0, angle=0):
     # get half size
     d = K_size // 2
 
+
+
     # prepare kernel
     gabor = np.zeros((K_size, K_size), dtype=np.float32)
 
